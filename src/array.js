@@ -15,6 +15,6 @@ console.log(d) //  [ 'a', 'c', 'd' ]
 
 let e = _.differenceBy(['A', 'B', 'C', 'D', 'E'], ['a', 'c'])
 console.log(e) //  ['A', 'B', 'C', 'D', 'E']
+
 let e1 = _.differenceBy(['A', 'B', 'C', 'D', 'E'], ['a', 'c'], item => {return item.toLowerCase()})
 console.log(e1) //  [ 'B', 'D', 'E' ]
-

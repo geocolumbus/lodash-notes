@@ -4,12 +4,12 @@
   "description": "Lodash notes",
   "main": "app.js",
   "scripts": {
-    "start":"node src/app.js",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "geocolumbus@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.21"
   }
 }
